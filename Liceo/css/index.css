@@ -1,0 +1,439 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1f1f1;
+}
+
+p {
+    font-family: calibri
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    color: white;
+    font-family: 'times';
+    align-items: center;
+}
+
+header .logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .logo .texto .h {
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+header .logo img {
+    margin-right: 10px;
+    width: 90px;
+    height: 60px;
+}
+
+header .logo p {
+    font-size: 0.92em;
+    font-weight: 1px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: white;
+    margin-right: 50px;
+}
+
+#hero {
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/fondo.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+#portada {
+    padding: 18%;
+}
+
+#portada h1 {
+    font-size: 3em;
+}
+
+#portada p {
+    font-family: monospace;
+    padding-top: 1%;
+    margin-bottom: 15px;
+}
+
+#portada img {
+    position: absolute;
+    right: 10vw;
+    top: 40vh;
+
+}
+
+button {
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+button:hover {
+    background-color: green;
+    border-color: green;
+    transition: 0.5s;
+}
+
+#foimulo {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+}
+
+.div {
+    width: 50%;
+    font-size: 6em;
+    border-right: 1px solid gray;
+    font-weight: 1px;
+    position: relative;
+}
+
+.div img {
+    width: 100px;
+    position: absolute;
+    top: 30vh;
+    left: 10vw;
+}
+
+.form {
+    width: 500px;
+    padding: 50px;
+    margin: 0 auto;
+    border-radius: 5px;
+    font-family: 'calibri';
+    color: white;
+}
+
+.form h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.controls {
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    border: 1px solid green;
+    font-family: 'calibri';
+    color: black;
+}
+
+.controls:hover {
+    border: 2px solid green;
+    padding: 8.6px;
+}
+
+.form label {
+    height: 40px;
+    text-align: left;
+    font-size: 14px;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.form a {
+    text-decoration: none;
+}
+
+.form a:hover {
+    text-decoration: underline;
+}
+
+.form .boton {
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.form .boton:hover {
+    background-color: green;
+    color: white;
+    transition: 0.5s;
+}
+
+#somos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#somos img {
+    width: 200px;
+}
+
+#somos h4 {
+    font-size: 1.5em;
+}
+
+.caja1 {
+    padding: 10%;
+    border-right: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    font-size: 4em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.caja1 p {
+    margin-top: 80px;
+    color: green;
+}
+
+.caja1 span {
+    color: black;
+}
+
+.caja1 .forma2 {
+    background-color: green;
+    height: 1px;
+    width: 500px;
+}
+
+.caja2 {
+    padding: 10%;
+    border-bottom: 1px solid lightgray;
+}
+
+.caja2 .forma1 {
+    background-color: green;
+    height: 1px;
+    width: 100px;
+}
+
+.caja3 {
+    padding: 10%;
+    border-right: 1px solid lightgray;
+}
+
+.caja3 .forma2 {
+    background-color: green;
+    height: 1px;
+    width: 100px;
+}
+
+.caja4 {
+    padding: 10%;
+}
+
+.caja4 .forma3 {
+    background-color: green;
+
+    height: 1px;
+    width: 100px;
+}
+
+
+#grados {
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/fondo.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    background-attachment: fixed;
+    padding: 17vh;
+    text-align: center;
+
+}
+
+#grados .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#grados h1 {
+    border-bottom: 1px solid gray;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 1vw;
+    font-size: 3em;
+}
+
+#grados p {
+    width: 40%;
+    position: relative;
+    left: 30%;
+    right: 30%;
+}
+
+.curso {
+    padding: 2vh;
+    margin: 2vw;
+    font-size: 2em;
+    margin-top: 10vh;
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.527);
+    box-shadow: 10px 10px 30px rgba(255, 255, 255, 0.514);
+    border-radius: 10px;
+
+}
+
+.curso h3 {
+    border-bottom: 1px solid gray;
+    margin-bottom: 2vh;
+}
+
+.curso p {
+    font-size: 0.4em;
+    text-align: justify;
+}
+
+.curso button {
+    padding: 1vw;
+}
+
+#admin {
+    background-color: white;
+    padding: 5vh;
+}
+
+#admin p {
+    font-size: 2em;
+}
+
+#admin h1 {
+    font-size: 2.3em;
+    color: green;
+    border-bottom: 1px solid gray;
+    margin-bottom: 5vh;
+}
+
+#admin .container {
+    display: flex;
+
+}
+
+#admin .carta {
+    margin: 20px;
+    background-color: #f1f1f1;
+    position: relative;
+    padding-bottom: 8vh;
+}
+
+#admin .carta img {
+    width: 100%;
+}
+
+#admin .carta h4 {
+    font-size: 1.2em;
+    padding: 1.2vw;
+}
+
+#admin .carta p {
+    font-size: 0.9em;
+    padding: 1.2vw;
+}
+
+#admin .carta .ig {
+    width: 50px;
+    position: absolute;
+    right: 0;
+}
+
+#frase {
+    padding: 20%;
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/fondo.jpeg");
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+#frase h3 {
+    font-size: 3em;
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0);
+    display: flex;
+    padding: 20px;
+    color: white;
+}
+
+footer .izquierda {
+    width: 50%;
+    position: relative;
+    border-right: 1px solid gray;
+}
+
+footer .izquierda h1 {
+    position: absolute;
+    top: 20vh;
+    left: 10vw;
+}
+
+footer .izquierda button {
+    position: absolute;
+    top: 30vh;
+    left: 15vw;
+    font-size: 2em;
+}
+
+footer .derecha {
+    width: 50%;
+    padding: 2vh;
+}
+
+footer .derecha p {
+    margin-bottom: 10px;
+}
+
+footer .container a,
+footer .container div {
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    padding: 2vh;
+}
+
+.facebook img,
+.intagran img,
+.youtube img,
+.gob img {
+    width: 20px;
+    float: left;
+    margin-right: 10px;
+}
+
+footer .container .facebook {
+    background-color: rgb(102, 102, 212);
+
+}
+
+footer .container .intagran {
+    background-color: rgba(221, 67, 67, 0.986);
+}
+
+footer .container .youtube {
+    background-color: white;
+    color: black;
+}
+
+footer .container .gob {
+    background-color: white;
+    color: black;
+}
+
+#fin {
+    display: flex;
+    justify-content: space-around;
+}
